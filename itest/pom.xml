@@ -68,7 +68,7 @@
                                 <configuration>
                                     <!--<address>${itest.hostname.seed}.${env.PRIVATE_DOMAIN}</address>-->
                                     <destFile>${project.build.directory}/jacoco-it.exec</destFile>
-                                    <reset>true</reset>
+                                    <!--<reset>true</reset>-->
                                 </configuration>
                             </execution>
                         </executions>
