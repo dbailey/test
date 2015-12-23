@@ -52,29 +52,5 @@
                 </plugins>
             </build>
         </profile>
-        <profile>
-            <id>jacoco</id>
-            <build>
-                <plugins>
-                    <plugin>
-                        <groupId>org.jacoco</groupId>
-                            <artifactId>jacoco-maven-plugin</artifactId>
-                        <executions>
-                            <execution>
-                                <id>dump</id>
-                                <goals>
-                                    <goal>dump</goal>
-                                </goals>
-                                <configuration>
-                                    <!--<address>${itest.hostname.seed}.${env.PRIVATE_DOMAIN}</address>-->
-                                    <destFile>${project.build.directory}/jacoco-it.exec</destFile>
-                                    <!--<reset>true</reset>-->
-                                </configuration>
-                            </execution>
-                        </executions>
-                    </plugin>
-                </plugins>
-            </build>
-        </profile>
     </profiles>
 </project>
