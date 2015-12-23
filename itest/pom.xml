@@ -27,30 +27,56 @@
         </plugins>
     </build>
     <profiles>
+    <profile>
+        <id>ec2-test</id>
+        <build>
+            <plugins>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-failsafe-plugin</artifactId>
+                    <executions>
+                        <execution>
+                            <id>integration-test</id>
+                            <goals>
+                                <goal>integration-test</goal>
+                            </goals>
+                        </execution>
+                        <execution>
+                            <id>verify</id>
+                            <goals>
+                                <goal>verify</goal>
+                            </goals>
+                        </execution>
+                    </executions>
+                </plugin>
+            </plugins>
+        </build>
+    </profile>
+    <profiles>
         <profile>
-            <id>ec2-test</id>
+            <id>jacoco</id>
             <build>
                 <plugins>
                     <plugin>
-                        <groupId>org.apache.maven.plugins</groupId>
-                        <artifactId>maven-failsafe-plugin</artifactId>
+                        <groupId>org.jacoco</groupId>
+                        <artifactId>jacoco-maven-plugin</artifactId>
                         <executions>
                             <execution>
-                                <id>integration-test</id>
+                                <id>dump</id>
                                 <goals>
-                                    <goal>integration-test</goal>
+                                    <goal>dump</goal>
                                 </goals>
-                            </execution>
-                            <execution>
-                                <id>verify</id>
-                                <goals>
-                                    <goal>verify</goal>
-                                </goals>
+                                <configuration>
+                                    <address>${itest.hostname.seed}.${env.PRIVATE_DOMAIN}</address>
+                                    <destFile>${project.build.directory}/jacoco-it.exec</destFile>
+                                    <reset>true</reset>
+                                </configuration>
                             </execution>
                         </executions>
                     </plugin>
                 </plugins>
             </build>
         </profile>
+
     </profiles>
 </project>
