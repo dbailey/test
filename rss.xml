@@ -6,32 +6,16 @@
         <copyright>&#xA9;2013</copyright>
         <webMaster>test@example.com</webMaster>
         <managingEditor>test@example.com</managingEditor>
-        <itunes:owner>
-            <itunes:name>Test</itunes:name>
-            <itunes:email>test@example.com</itunes:email>
-        </itunes:owner>
-        <itunes:category text="News & Politics">
-        </itunes:category>
-        <itunes:keywords></itunes:keywords>
-        <itunes:explicit>no</itunes:explicit>
-        <itunes:image href="https://pbs.twimg.com/profile_images/2677603950/8320ad7218821615d8a87d53f23fae11_400x400.jpeg" />
         <atom:link href="https://github.com/dbailey/test/blob/master/rss.xml" rel="self" type="application/rss+xml" />
         <pubDate>Sun, 24 Apr 2016 00:00:00 EST</pubDate>
         <title>Verbose title of the podcast</title>
-        <itunes:author>College, school, or department owning the podcast</itunes:author>
         <description>Verbose description of the podcast.</description>
-        <itunes:summary>Duplicate of above verbose description.</itunes:summary>
-        <itunes:subtitle>Short description of the podcast - 255 character max.</itunes:subtitle>
         <lastBuildDate>Thu, 02 Feb 2012 00:00:00 EST</lastBuildDate>
         <item>
             <title>The Opium Wars</title>
             <description>The Opium Wars</description>
-            <itunes:summary>The Opium Wars</itunes:summary>
-            <itunes:subtitle>The Opium Wars</itunes:subtitle>
-            <itunesu:category itunesu:code="1311" />
             <enclosure url="http://exiledonline.com/wnradio/Radio-War-Nerd-Podcast30-Opium-Wars-4-24-16.mp3" type="audio/mpeg" length="1" />
             <guid>http://exiledonline.com/wnradio/Radio-War-Nerd-Podcast30-Opium-Wars-4-24-16.mp3</guid>
-            <itunes:duration>1:16:39</itunes:duration>
             <pubDate>Sun, 24 Apr 2016 00:00:00 EST</pubDate>
         </item>
     </channel>
