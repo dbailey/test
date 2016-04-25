@@ -16,7 +16,7 @@
         <itunes:explicit>no</itunes:explicit>
         <itunes:image href="https://pbs.twimg.com/profile_images/2677603950/8320ad7218821615d8a87d53f23fae11_400x400.jpeg" />
         <atom:link href="https://github.com/dbailey/test/blob/master/rss.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Sun, 24 Apr 2016 00:00:00 EST</pubDate>
+        <pubDate>Sun, 24 Apr 2016 00:00:01 EST</pubDate>
         <title>War Nerd</title>
         <itunes:author>Gary Brecher</itunes:author>
         <description>War Nerd</description>
