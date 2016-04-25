@@ -17,11 +17,11 @@
         <itunes:image href="https://pbs.twimg.com/profile_images/2677603950/8320ad7218821615d8a87d53f23fae11_400x400.jpeg" />
         <atom:link href="https://github.com/dbailey/test/blob/master/rss.xml" rel="self" type="application/rss+xml" />
         <pubDate>Sun, 24 Apr 2016 00:00:00 EST</pubDate>
-        <title>Verbose title of the podcast</title>
-        <itunes:author>College, school, or department owning the podcast</itunes:author>
-        <description>Verbose description of the podcast.</description>
-        <itunes:summary>Duplicate of above verbose description.</itunes:summary>
-        <itunes:subtitle>Short description of the podcast - 255 character max.</itunes:subtitle>
+        <title>War Nerd</title>
+        <itunes:author>Gary Brecher</itunes:author>
+        <description>War Nerd</description>
+        <itunes:summary>War Nerd</itunes:summary>
+        <itunes:subtitle>War Nerd</itunes:subtitle>
         <lastBuildDate>Thu, 02 Feb 2012 00:00:00 EST</lastBuildDate>
         <item>
             <title>The Opium Wars</title>
