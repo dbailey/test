@@ -10,7 +10,7 @@
             <itunes:name>Test</itunes:name>
             <itunes:email>test@example.com</itunes:email>
         </itunes:owner>
-        <itunes:category text="News & Politics">
+        <itunes:category text="News &amp; Politics">
         </itunes:category>
         <itunes:keywords></itunes:keywords>
         <itunes:explicit>no</itunes:explicit>
