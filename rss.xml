@@ -16,7 +16,7 @@
         <itunes:explicit>no</itunes:explicit>
         <itunes:image href="https://pbs.twimg.com/profile_images/2677603950/8320ad7218821615d8a87d53f23fae11_400x400.jpeg" />
         <atom:link href="https://github.com/dbailey/test/blob/master/rss.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Sun, 24 Apr 2016 00:00:01 EST</pubDate>
+        <pubDate>Sun, 24 Apr 2016 00:00:02 EST</pubDate>
         <title>War Nerd</title>
         <itunes:author>Gary Brecher</itunes:author>
         <description>War Nerd</description>
@@ -33,6 +33,17 @@
             <guid>http://exiledonline.com/wnradio/Radio-War-Nerd-Podcast30-Opium-Wars-4-24-16.mp3</guid>
             <itunes:duration>1:16:39</itunes:duration>
             <pubDate>Sun, 24 Apr 2016 00:00:00 EST</pubDate>
+        </item>
+        <item>
+            <title>Getting To Know Islamic State Jihadis: 28</title>
+            <description>Getting To Know Islamic State Jihadis</description>
+            <itunes:summary>Getting To Know Islamic State Jihadis</itunes:summary>
+            <itunes:subtitle>Getting To Know Islamic State Jihadis</itunes:subtitle>
+            <itunesu:category itunesu:code="1311" />
+            <enclosure url="http://exiledonline.com/wnradio/Radio-War-Nerd-Podcast28-Gunnar-Jonsson-04-07-2016.mp3" type="audio/mpeg" length="1" />
+            <guid>http://exiledonline.com/wnradio/Radio-War-Nerd-Podcast28-Gunnar-Jonsson-04-07-2016.mp3</guid>
+            <itunes:duration>1:42:41</itunes:duration>
+            <pubDate>Sun, 07 Apr 2016 00:00:00 EST</pubDate>
         </item>
     </channel>
 </rss>
