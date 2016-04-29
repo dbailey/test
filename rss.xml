@@ -1,49 +1,232 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:itunesu="http://www.itunesu.com/feed" version="2.0">
-    <channel>
-        <link>https://www.patreon.com/radiowarnerd</link>
-        <language>en-us</language>
-        <copyright>&#xA9;2013</copyright>
-        <webMaster>test@example.com</webMaster>
-        <managingEditor>test@example.com</managingEditor>
-        <itunes:owner>
-            <itunes:name>Test</itunes:name>
-            <itunes:email>test@example.com</itunes:email>
-        </itunes:owner>
-        <itunes:category text="News &amp; Politics">
-        </itunes:category>
-        <itunes:keywords></itunes:keywords>
-        <itunes:explicit>no</itunes:explicit>
-        <itunes:image href="https://pbs.twimg.com/profile_images/2677603950/8320ad7218821615d8a87d53f23fae11_400x400.jpeg" />
-        <atom:link href="https://github.com/dbailey/test/blob/master/rss.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Sun, 24 Apr 2016 00:00:02 EST</pubDate>
-        <title>War Nerd</title>
-        <itunes:author>Gary Brecher</itunes:author>
-        <description>War Nerd</description>
-        <itunes:summary>War Nerd</itunes:summary>
-        <itunes:subtitle>War Nerd</itunes:subtitle>
-        <lastBuildDate>Thu, 02 Feb 2012 00:00:00 EST</lastBuildDate>
-        <item>
-            <title>The Opium Wars</title>
-            <description>The Opium Wars</description>
-            <itunes:summary>The Opium Wars</itunes:summary>
-            <itunes:subtitle>The Opium Wars</itunes:subtitle>
-            <itunesu:category itunesu:code="1311" />
-            <enclosure url="http://exiledonline.com/wnradio/Radio-War-Nerd-Podcast30-Opium-Wars-4-24-16.mp3" type="audio/mpeg" length="1" />
-            <guid>http://exiledonline.com/wnradio/Radio-War-Nerd-Podcast30-Opium-Wars-4-24-16.mp3</guid>
-            <itunes:duration>1:16:39</itunes:duration>
-            <pubDate>Sun, 24 Apr 2016 00:00:00 EST</pubDate>
-        </item>
-        <item>
-            <title>Getting To Know Islamic State Jihadis: 28</title>
-            <description>Getting To Know Islamic State Jihadis</description>
-            <itunes:summary>Getting To Know Islamic State Jihadis</itunes:summary>
-            <itunes:subtitle>Getting To Know Islamic State Jihadis</itunes:subtitle>
-            <itunesu:category itunesu:code="1311" />
-            <enclosure url="http://exiledonline.com/wnradio/Radio-War-Nerd-Podcast28-Gunnar-Jonsson-04-07-2016.mp3" type="audio/mpeg" length="1" />
-            <guid>http://exiledonline.com/wnradio/Radio-War-Nerd-Podcast28-Gunnar-Jonsson-04-07-2016.mp3</guid>
-            <itunes:duration>1:42:41</itunes:duration>
-            <pubDate>Sun, 07 Apr 2016 00:00:00 EST</pubDate>
-        </item>
-    </channel>
+  <channel>
+    <link>https://www.patreon.com/radiowarnerd</link>
+    <language>en-us</language>
+    <atom:link href="https://github.com/dbailey/test/blob/master/rss.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 29 Apr 2016 03:18:48 -0000</pubDate>
+    <title>War Nerd</title>
+    <description>War Nerd</description>
+    <lastBuildDate>Fri, 29 Apr 2016 03:18:48 -0000</lastBuildDate>
+    <item>
+      <title>The Opium Wars</title>
+      <description>The Opium Wars</description>
+      <itunes:summary>The Opium Wars</itunes:summary>
+      <itunes:subtitle>The Opium Wars</itunes:subtitle>
+      <itunesu:category itunesu:code="1311"/>
+      <enclosure length="1" type="audio/mpeg" url="http://exiledonline.com/wnradio/Radio-War-Nerd-Podcast30-Opium-Wars-4-24-16.mp3"/>
+      <guid>http://exiledonline.com/wnradio/Radio-War-Nerd-Podcast30-Opium-Wars-4-24-16.mp3</guid>
+      <itunes:duration>1:16:39</itunes:duration>
+      <pubDate>Sun, 24 Apr 2016 00:00:00 EST</pubDate>
+    </item>
+    <item>
+      <title>Getting To Know Islamic State Jihadis</title>
+      <description>Getting To Know Islamic State Jihadis</description>
+      <itunes:summary>Getting To Know Islamic State Jihadis</itunes:summary>
+      <itunes:subtitle>Getting To Know Islamic State Jihadis</itunes:subtitle>
+      <itunesu:category itunesu:code="1311"/>
+      <enclosure length="1" type="audio/mpeg" url="http://exiledonline.com/wnradio/Radio-War-Nerd-Podcast28-Gunnar-Jonsson-04-07-2016.mp3"/>
+      <guid>http://exiledonline.com/wnradio/Radio-War-Nerd-Podcast28-Gunnar-Jonsson-04-07-2016.mp3</guid>
+      <itunes:duration>1:42:41</itunes:duration>
+      <pubDate>Sun, 07 Apr 2016 00:00:00 EST</pubDate>
+    </item>
+    <item>
+      <title>Radio War Nerd</title>
+      <description>Radio War Nerd</description>
+      <itunes:summary>Radio War Nerd</itunes:summary>
+      <itunes:subtitle>Radio War Nerd</itunes:subtitle>
+      <itunesu:category itunesu:code="1311"/>
+      <enclosure length="1" type="audio/mpeg" url="http://exiledonline.com/wnradio/Radio-War-Nerd-Podcast25-3_17_16.mp3"/>
+      <guid>http://exiledonline.com/wnradio/Radio-War-Nerd-Podcast25-3_17_16.mp3</guid>
+      <itunes:duration>1:38:24</itunes:duration>
+      <pubDate>Thur, 17 Mar 2016 00:00:00 EST</pubDate>
+    </item>
+    <item>
+      <title>Sinn Fein, I.R.A. and urban guerrilla warfare</title>
+      <description>Sinn Fein, I.R.A. and urban guerrilla warfare</description>
+      <itunes:summary>Sinn Fein, I.R.A. and urban guerrilla warfare</itunes:summary>
+      <itunes:subtitle>Sinn Fein, I.R.A. and urban guerrilla warfare</itunes:subtitle>
+      <itunesu:category itunesu:code="1311"/>
+      <enclosure length="1" type="audio/mpeg" url="http://exiledonline.com/wnradio/Radio-War-Nerd-Podcast23-Jason-Walsh-3-03-16.mp3"/>
+      <guid>http://exiledonline.com/wnradio/Radio-War-Nerd-Podcast23-Jason-Walsh-3-03-16.mp3</guid>
+      <itunes:duration>1:58:41</itunes:duration>
+      <pubDate>Thu, 03 Mar 2016 00:00:00 EST</pubDate>
+    </item>
+    <item>
+      <title>Tim Shorrock</title>
+      <description>Tim Shorrock</description>
+      <itunes:summary>Tim Shorrock</itunes:summary>
+      <itunes:subtitle>Tim Shorrock</itunes:subtitle>
+      <itunesu:category itunesu:code="1311"/>
+      <enclosure length="1" type="audio/mpeg" url="http://exiledonline.com/wnradio/Radio-War-Nerd-Podcast20.mp3"/>
+      <guid>http://exiledonline.com/wnradio/Radio-War-Nerd-Podcast20.mp3</guid>
+      <itunes:duration>1:42:20</itunes:duration>
+      <pubDate>Wed, 10 Feb 2016 00:00:00 EST</pubDate>
+    </item>
+    <item>
+      <title>Patrick Cockburn</title>
+      <description>Patrick Cockburn</description>
+      <itunes:summary>Patrick Cockburn</itunes:summary>
+      <itunes:subtitle>Patrick Cockburn</itunes:subtitle>
+      <itunesu:category itunesu:code="1311"/>
+      <enclosure length="1" type="audio/mpeg" url="http://exiledonline.com/wnradio/WN%20Podcast18.mp3"/>
+      <guid>http://exiledonline.com/wnradio/WN%20Podcast18.mp3</guid>
+      <itunes:duration>1:54:58</itunes:duration>
+      <pubDate>Wed, 27 Jan 2016 00:00:00 EST</pubDate>
+    </item>
+    <item>
+      <title>Turino</title>
+      <description>Turino</description>
+      <itunes:summary>Turino</itunes:summary>
+      <itunes:subtitle>Turino</itunes:subtitle>
+      <itunesu:category itunesu:code="1311"/>
+      <enclosure length="1" type="audio/mpeg" url="http://exiledonline.com/wnradio/WN%20Podcast17b%20-%201_22_16%2C%201.10%20AM.mp3"/>
+      <guid>http://exiledonline.com/wnradio/WN%20Podcast17b%20-%201_22_16%2C%201.10%20AM.mp3</guid>
+      <itunes:duration>1:18:32</itunes:duration>
+      <pubDate>Thu, 21 Jan 2016 00:00:00 EST</pubDate>
+    </item>
+    <item>
+      <title>Portland</title>
+      <description>Portland</description>
+      <itunes:summary>Portland</itunes:summary>
+      <itunes:subtitle>Portland</itunes:subtitle>
+      <itunesu:category itunesu:code="1311"/>
+      <enclosure length="1" type="audio/mpeg" url="http://exiledonline.com/wnradio/WN%20Podcast15%20Jason%20Wilson%20interview%20-%201%3A10%3A16%2C%202.19%20PM.mp3"/>
+      <guid>http://exiledonline.com/wnradio/WN%20Podcast15%20Jason%20Wilson%20interview%20-%201%3A10%3A16%2C%202.19%20PM.mp3</guid>
+      <itunes:duration>52:32</itunes:duration>
+      <pubDate>Sun, 10 Jan 2016 00:00:00 EST</pubDate>
+    </item>
+    <item>
+      <title>Mormon Nerd</title>
+      <description>Mormon Nerd</description>
+      <itunes:summary>Mormon Nerd</itunes:summary>
+      <itunes:subtitle>Mormon Nerd</itunes:subtitle>
+      <itunesu:category itunesu:code="1311"/>
+      <enclosure length="1" type="audio/mpeg" url="http://exiledonline.com/wnradio/WN%20Podcast14%20-%201%3A6%3A16%2C%208.42%20PM.mp3"/>
+      <guid>http://exiledonline.com/wnradio/WN%20Podcast14%20-%201%3A6%3A16%2C%208.42%20PM.mp3</guid>
+      <itunes:duration>0:00</itunes:duration>
+      <pubDate>Wed, 06 Jan 2016 00:00:00 EST</pubDate>
+    </item>
+    <item>
+      <title>Episode 11</title>
+      <description>Episode 11</description>
+      <itunes:summary>Episode 11</itunes:summary>
+      <itunes:subtitle>Episode 11</itunes:subtitle>
+      <itunesu:category itunesu:code="1311"/>
+      <enclosure length="1" type="audio/mpeg" url="http://exiledonline.com/wnradio/WN%20Podcast11.mp3"/>
+      <guid>http://exiledonline.com/wnradio/WN%20Podcast11.mp3</guid>
+      <itunes:duration>0:00</itunes:duration>
+      <pubDate>Wed, 06 Jan 2016 00:00:00 EST</pubDate>
+    </item>
+    <item>
+      <title>Episode 10</title>
+      <description>Episode 10</description>
+      <itunes:summary>Episode 10</itunes:summary>
+      <itunes:subtitle>Episode 10</itunes:subtitle>
+      <itunesu:category itunesu:code="1311"/>
+      <enclosure length="1" type="audio/mpeg" url="http://exiledonline.com/wnradio/War%20Nerd%20Episode%2010.mp3"/>
+      <guid>http://exiledonline.com/wnradio/War%20Nerd%20Episode%2010.mp3</guid>
+      <itunes:duration>0:00</itunes:duration>
+      <pubDate>Wed, 06 Jan 2016 00:00:00 EST</pubDate>
+    </item>
+    <item>
+      <title>Episode 09</title>
+      <description>Episode 09</description>
+      <itunes:summary>Episode 09</itunes:summary>
+      <itunes:subtitle>Episode 09</itunes:subtitle>
+      <itunesu:category itunesu:code="1311"/>
+      <enclosure length="1" type="audio/mpeg" url="http://exiledonline.com/wnradio/War-Nerd-Episode-9.mp3"/>
+      <guid>http://exiledonline.com/wnradio/War-Nerd-Episode-9.mp3</guid>
+      <itunes:duration>0:00</itunes:duration>
+      <pubDate>Wed, 06 Jan 2016 00:00:00 EST</pubDate>
+    </item>
+    <item>
+      <title>Episode 08</title>
+      <description>Episode 08</description>
+      <itunes:summary>Episode 08</itunes:summary>
+      <itunes:subtitle>Episode 08</itunes:subtitle>
+      <itunesu:category itunesu:code="1311"/>
+      <enclosure length="1" type="audio/mpeg" url="http://exiledonline.com/wnradio/War-Nerd-Episode-8.mp3"/>
+      <guid>http://exiledonline.com/wnradio/War-Nerd-Episode-8.mp3</guid>
+      <itunes:duration>0:00</itunes:duration>
+      <pubDate>Wed, 06 Jan 2016 00:00:00 EST</pubDate>
+    </item>
+    <item>
+      <title>Episode 07</title>
+      <description>Episode 07</description>
+      <itunes:summary>Episode 07</itunes:summary>
+      <itunes:subtitle>Episode 07</itunes:subtitle>
+      <itunesu:category itunesu:code="1311"/>
+      <enclosure length="1" type="audio/mpeg" url="https://s3-us-west-1.amazonaws.com/patreon.posts/4488550883423924238.mp3"/>
+      <guid>https://s3-us-west-1.amazonaws.com/patreon.posts/4488550883423924238.mp3</guid>
+      <itunes:duration>0:00</itunes:duration>
+      <pubDate>Wed, 06 Jan 2016 00:00:00 EST</pubDate>
+    </item>
+    <item>
+      <title>Episode 06</title>
+      <description>Episode 06</description>
+      <itunes:summary>Episode 06</itunes:summary>
+      <itunes:subtitle>Episode 06</itunes:subtitle>
+      <itunesu:category itunesu:code="1311"/>
+      <enclosure length="1" type="audio/mpeg" url="https://s3-us-west-1.amazonaws.com/patreon.posts/6160365290362684294.mp3"/>
+      <guid>https://s3-us-west-1.amazonaws.com/patreon.posts/6160365290362684294.mp3</guid>
+      <itunes:duration>0:00</itunes:duration>
+      <pubDate>Wed, 06 Jan 2016 00:00:00 EST</pubDate>
+    </item>
+    <item>
+      <title>Episode 05</title>
+      <description>Episode 05</description>
+      <itunes:summary>Episode 05</itunes:summary>
+      <itunes:subtitle>Episode 05</itunes:subtitle>
+      <itunesu:category itunesu:code="1311"/>
+      <enclosure length="1" type="audio/mpeg" url="https://s3-us-west-1.amazonaws.com/patreon.posts/16626416923686758880.mp3"/>
+      <guid>https://s3-us-west-1.amazonaws.com/patreon.posts/16626416923686758880.mp3</guid>
+      <itunes:duration>0:00</itunes:duration>
+      <pubDate>Wed, 06 Jan 2016 00:00:00 EST</pubDate>
+    </item>
+    <item>
+      <title>Episode 04</title>
+      <description>Episode 04</description>
+      <itunes:summary>Episode 04</itunes:summary>
+      <itunes:subtitle>Episode 04</itunes:subtitle>
+      <itunesu:category itunesu:code="1311"/>
+      <enclosure length="1" type="audio/mpeg" url="https://s3-us-west-1.amazonaws.com/patreon.posts/9900280260798170881.mp3"/>
+      <guid>https://s3-us-west-1.amazonaws.com/patreon.posts/9900280260798170881.mp3</guid>
+      <itunes:duration>0:00</itunes:duration>
+      <pubDate>Wed, 06 Jan 2016 00:00:00 EST</pubDate>
+    </item>
+    <item>
+      <title>Episode 03</title>
+      <description>Episode 03</description>
+      <itunes:summary>Episode 03</itunes:summary>
+      <itunes:subtitle>Episode 03</itunes:subtitle>
+      <itunesu:category itunesu:code="1311"/>
+      <enclosure length="1" type="audio/mpeg" url="https://s3-us-west-1.amazonaws.com/patreon.posts/4587184922771386391.mp3"/>
+      <guid>https://s3-us-west-1.amazonaws.com/patreon.posts/4587184922771386391.mp3</guid>
+      <itunes:duration>0:00</itunes:duration>
+      <pubDate>Wed, 06 Jan 2016 00:00:00 EST</pubDate>
+    </item>
+    <item>
+      <title>Episode 02</title>
+      <description>Episode 02</description>
+      <itunes:summary>Episode 02</itunes:summary>
+      <itunes:subtitle>Episode 02</itunes:subtitle>
+      <itunesu:category itunesu:code="1311"/>
+      <enclosure length="1" type="audio/mpeg" url="https://s3-us-west-1.amazonaws.com/patreon.posts/6356960097229553942.mp3"/>
+      <guid>https://s3-us-west-1.amazonaws.com/patreon.posts/6356960097229553942.mp3</guid>
+      <itunes:duration>0:00</itunes:duration>
+      <pubDate>Wed, 06 Jan 2016 00:00:00 EST</pubDate>
+    </item>
+    <item>
+      <title>Episode 01</title>
+      <description>Episode 01</description>
+      <itunes:summary>Episode 01</itunes:summary>
+      <itunes:subtitle>Episode 01</itunes:subtitle>
+      <itunesu:category itunesu:code="1311"/>
+      <enclosure length="1" type="audio/mpeg" url="https://s3-us-west-1.amazonaws.com/patreon.posts/7052310496040842942.mp3"/>
+      <guid>https://s3-us-west-1.amazonaws.com/patreon.posts/7052310496040842942.mp3</guid>
+      <itunes:duration>0:00</itunes:duration>
+      <pubDate>Wed, 06 Jan 2016 00:00:00 EST</pubDate>
+    </item>
+  </channel>
 </rss>
