@@ -1,4 +1,4 @@
-<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="_94880f5a505510d609ef58177854323a8fad8e0f"
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:mdui="urn:oasis:names:tc:SAML:metadata:ui" ID="_94880f5a505510d609ef58177854323a8fad8e0f"
                      entityID="https://services.sheerid.com/Shibboleth/UK">
 
     <md:Extensions xmlns:alg="urn:oasis:names:tc:SAML:metadata:algsupport">
@@ -23,6 +23,11 @@
     <md:SPSSODescriptor
             protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol urn:oasis:names:tc:SAML:1.1:protocol urn:oasis:names:tc:SAML:1.0:protocol">
         <md:Extensions>
+            <mdui:UIInfo>
+                <mdui:Description xml:lang="en">Student and Teacher Eligibility Verification Services for Global Brands</mdui:Description>
+                <mdui:DisplayName xml:lang="en">SheerID Verification Services</mdui:DisplayName>
+                <mdui:Logo height="104" width="350">https://s3.amazonaws.com/com.sheerid.resources/shibboleth/img/SheerID_Logo_350x104px.png</mdui:Logo>
+            </mdui:UIInfo>
             <init:RequestInitiator xmlns:init="urn:oasis:names:tc:SAML:profiles:SSO:request-init" Binding="urn:oasis:names:tc:SAML:profiles:SSO:request-init"
                                    Location="https://services.sheerid.com/Shibboleth.sso/Login"/>
             <idpdisc:DiscoveryResponse xmlns:idpdisc="urn:oasis:names:tc:SAML:profiles:SSO:idp-discovery-protocol"
