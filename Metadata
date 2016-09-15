@@ -27,6 +27,8 @@
                 <mdui:Description xml:lang="en">Student and Teacher Eligibility Verification Services for Global Brands</mdui:Description>
                 <mdui:DisplayName xml:lang="en">SheerID Verification Services</mdui:DisplayName>
                 <mdui:Logo height="104" width="350">https://s3.amazonaws.com/com.sheerid.resources/shibboleth/img/SheerID_Logo_350x104px.png</mdui:Logo>
+                <mdui:InformationURL xml:lang="en">http://www.sheerid.com/student-discounts-made-easy/</mdui:InformationURL>
+                <mdui:PrivacyStatementURL xml:lang="en">http://www.sheerid.com/privacy-policy/</mdui:PrivacyStatementURL>
             </mdui:UIInfo>
             <init:RequestInitiator xmlns:init="urn:oasis:names:tc:SAML:profiles:SSO:request-init" Binding="urn:oasis:names:tc:SAML:profiles:SSO:request-init"
                                    Location="https://services.sheerid.com/Shibboleth.sso/Login"/>
